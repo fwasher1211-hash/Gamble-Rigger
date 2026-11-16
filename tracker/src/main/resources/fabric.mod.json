@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "droprigtracker",
+  "version": "${version}",
+  "name": "Drop Rig Tracker",
+  "description": "Client-side inventory label tracker. Reads visible labels and reports the higher value without modifying items or server outcomes.",
+  "authors": ["Drop Rig"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.droprig.tracker.DropRigTracker"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
